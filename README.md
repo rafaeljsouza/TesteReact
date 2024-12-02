@@ -49,6 +49,7 @@ Você deve criar um componente de filtro de pneus. O componente tem um campo de 
 - Você precisa implementar a busca da api que está em `/api/products` e o filtro dos pneus.
 - Você pode usar qualquer biblioteca que desejar. Mas lembre-se de justificar a escolha da biblioteca.
 - Tente utilizar tailwindcss para estilizar o componente de resultados.
+- Caso não haja resultados, mostre uma mensagem de "Nenhum produto encontrado".
 
 ### Instruções para rodar os testes
 
