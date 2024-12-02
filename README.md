@@ -13,7 +13,7 @@ Esse projeto usa Next.js, então você deve ter o Node.js instalado na sua máqu
 Depois de clonar o repositório, você deve instalar as dependências do projeto. Para isso, você pode usar o npm.
 
 ```bash
-npm run dev
+npm install
 ```
 
 Depois de instalar as dependências, você pode rodar o projeto com o comando:
