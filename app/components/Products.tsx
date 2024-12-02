@@ -1,11 +1,11 @@
-import { MagnifyingGlassIcon } from "@heroicons/react/16/solid";
+'use client';
 
+import { MagnifyingGlassIcon } from "@heroicons/react/16/solid";
 
 export default function Products() {
 
   return (
     <div className="w-full flex justify-center flex-col h-full">
-
       <div className="border-gray-500 w-1/2 mx-auto mb-4">
         <label htmlFor="search" className="block text-sm/6 font-medium text-gray-900">
           Pesquisa
