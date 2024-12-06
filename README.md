@@ -28,9 +28,13 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o 
 
 Você deve criar um componente de filtro de pneus. O componente tem um campo de busca, onde o usuário pode digitar o nome de um pneu e o componente deve filtrar os pneus que contém o texto digitado no nome.
 
-- O componente deve ser responsivo e funcionar em dispositivos móveis.
+- O componente deve ser responsivo e funcionar em dispositivos móveis, image abaixo de como deve ser a aparência do componente (para cada resultado).
 - Foi feito uma rota imitando uma pequena API que retorna uma lista de pneus.
 - Foram escritos 6 testes para o componente, você deve fazer o componente passar em todos os testes.
+
+### Resultado esperado:
+
+![Exemplo de componente](image.png)
 
 ## O que será avaliado?
 
@@ -38,6 +42,7 @@ Você deve criar um componente de filtro de pneus. O componente tem um campo de 
 - Qualidade do código
 - Responsividade
 - Funcionamento do componente
+- Resultado mais próximo da imagem acima
 - Testes
 
 ## Não modifique o arquivo de testes (products.test.tsx) e o arquivo da api (api/products/route.ts)
@@ -45,7 +50,7 @@ Você deve criar um componente de filtro de pneus. O componente tem um campo de 
 ### Instruções gerais
 
 - O componente Products.tsx é onde os resultados devem serem mostrados.
-- Substitua a <div>Produtos aqui</div> por um componente que mostre os resultados. Esse componente deve ter o seguinta atributo: `data-testid="products`
+- Substitua `<div>Produtos aqui</div>` por um componente que mostre os resultados. Esse componente deve ter o seguinta atributo: `data-testid="products`
 - Você precisa implementar a busca da api que está em `/api/products` e o filtro dos pneus.
 - Você pode usar qualquer biblioteca que desejar. Mas lembre-se de justificar a escolha da biblioteca.
 - Tente utilizar tailwindcss para estilizar o componente de resultados.
