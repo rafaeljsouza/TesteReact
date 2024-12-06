@@ -10,6 +10,8 @@ beforeAll(() => {
         Promise.resolve([
           {
             name: "PNEU 205/65R15 94V RXMOTION H12 ROADX",
+            image:
+              "https://rspneus.com.br/wp-content/uploads/2023/04/PNEU-ROADX-RXMOTION-H12-1-640x640-1.jpg",
             model: "RXMOTION H12",
             treadwear: 360,
             traction: "A",
@@ -24,6 +26,8 @@ beforeAll(() => {
           },
           {
             name: "PNEU 225/50R17 98W RXMOTION U11 ROADX",
+            image:
+              "https://rspneus.com.br/wp-content/uploads/2023/04/PNEU-ROADX-RXMOTION-U11-1-640x640-1.jpg",
             model: "RXMOTION U11",
             treadwear: 280,
             traction: "AA",
@@ -38,6 +42,8 @@ beforeAll(() => {
           },
           {
             name: "PNEU 235/50R18 101W RXMOTION U11 ROADX",
+            image:
+              "https://rspneus.com.br/wp-content/uploads/2023/04/PNEU-ROADX-RXMOTION-U11-1-640x640-1.jpg",
             model: "RXMOTION U11",
             treadwear: 280,
             traction: "AA",
@@ -52,6 +58,8 @@ beforeAll(() => {
           },
           {
             name: "PNEU 185/55R15 82V RXMOTION H12 ROADX",
+            image:
+              "https://rspneus.com.br/wp-content/uploads/2023/04/PNEU-ROADX-RXMOTION-H12-1-640x640-1.jpg",
             model: "RXMOTION H12",
             treadwear: 360,
             traction: "A",
@@ -66,6 +74,8 @@ beforeAll(() => {
           },
           {
             name: "PNEU 235/55R18 104W RXQUEST SU01 ROADX",
+            image:
+              "https://rspneus.com.br/wp-content/uploads/2023/04/PNEU-ROADX-RXMOTION-SU01-1-640x640-1.jpg",
             model: "RXQUEST SU01",
             treadwear: 280,
             traction: "AA",
